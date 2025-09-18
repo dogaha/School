@@ -1,0 +1,10 @@
+﻿  Assembling temp.asm...
+temp.asm(2): error A2008: syntax error : .
+temp.asm(3): error A2008: syntax error : .
+temp.asm(4): error A2008: syntax error : .
+temp.asm(5): error A2008: syntax error : ,
+temp.asm(14): error A2008: syntax error : in instruction
+temp.asm(18): error A2008: syntax error : invoke
+temp.asm(20): error A2008: syntax error : main
+temp.asm(20): error A2088: END directive required at end of file
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\temp.obj" /Fl"Project.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /Tatemp.asm" exited with code 1.

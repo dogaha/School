@@ -1,0 +1,40 @@
+﻿@model FutureValueModel //connects future value model
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Future Value Calculator</h1>
+    <!-- Controllers are defined in Program.cs, set up like a dictionary, use asp-controller="controller name"->
+    <form asp-action="Index" method="post"> <!-- makes actions done run post, Remember that controller functions feed into views-->
+        <div> <!-- Monthly Investment Div -->
+            <label asp-for="MonthlyInvestment">
+                Monthly Investment:
+            </label>
+            <input asp-for="MonthlyInvestment" /> <!--Display type and add input box-->
+        </div>
+        <div>
+            <label asp-for="YearlyInterestRate">
+                Yearly Interest Rate:
+            </label>
+            <input asp-for="YearlyInterestRate" /><!--Display type and add input box-->
+        </div>
+        <div>
+            <label asp-for="Years">Number of Years:</label>
+            <input asp-for="Years" /><!--Display type and add input box-->
+        </div>
+        <div>
+            <label>Future Value:</label>
+            <input value="@ViewBag.FV.ToString("C2")" readonly> <!--Remove ability to edit-->
+        </div>
+        <button type="submit">Calculate</button><!--Submit block button (Buttons Activate Post)-->
+        <a asp-action="Index">Clear</a><!--Clear hyperlink (method is get by default)-->
+    </form>
+</body>
+</html>
+

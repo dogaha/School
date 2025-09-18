@@ -1,0 +1,84 @@
+﻿@model MyModel
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+</head>
+<body>
+    <form asp-action="Index" method="post">
+        <div>
+            <label asp-for="Username">Username: </label>
+            <input asp-for="Username"/>
+        </div>
+        <br />
+        <div>
+            <label asp-for="Password">Password: </label>
+            <input asp-for="Password" type="password"/>
+        </div>
+        <div>
+            <label>@ViewBag.LoginStatus</label>
+        </div>
+        <br />
+        <div>
+            <label>Choose your favorite sports: </label>
+            <input type="checkbox" asp-for="IsNFL"/>
+            <label asp-for="IsNFL">NFL</label>
+            <input type="checkbox" asp-for="IsNBA" />
+            <label asp-for="IsNBA">NBA</label>
+            <input type="checkbox" asp-for="IsMLB" />
+            <label asp-for="IsMLB">MLB</label>
+            <input type="checkbox" asp-for="IsTennis" />
+            <label asp-for="IsNBA">Tennis</label>
+        </div>
+        <div>
+            <label>@ViewBag.FavSports</label>
+        </div>
+        <br />
+        <div>
+            <label>Pick your major: </label>
+            <input type="radio" asp-for="SelectedMajor" value="CS"/>
+            <label asp-for="SelectedMajor">CS</label>
+            <input type="radio" asp-for="SelectedMajor" value="CIS"/>
+            <label asp-for="SelectedMajor">CIS</label>
+            <input type="radio" asp-for="SelectedMajor" value="IT"/>
+            <label asp-for="SelectedMajor">IT</label>
+            <input type="radio" asp-for="SelectedMajor" value="DS"/>
+            <label asp-for="SelectedMajor">DS</label>
+        </div>
+        <div>
+            <label>@ViewBag.Major</label>
+        </div>
+        <br />
+        <div>
+            <label>Pick your car make: </label>
+            <select asp-for="SelectedCarMake">
+                <option value="">Please select</option>
+                <option value="Ford">Ford</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Tesla">Tesla</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Audi">Audi</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Mazda">Mazda</option>
+            </select>
+        </div>
+        <div>
+            <label>@ViewBag.CarMake</label>
+        </div>
+        <br />
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+</body>
+</html>
+
+

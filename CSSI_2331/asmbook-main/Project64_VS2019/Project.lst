@@ -1,0 +1,53 @@
+Microsoft (R) Macro Assembler (x64) Version 14.21.27702.2   04/15/20 18:07:04
+temp.asm						     Page 1 - 1
+
+
+
+				.386
+temp.asm(2) : error A2008:syntax error : .
+				.model flat,stdcall
+temp.asm(3) : error A2008:syntax error : .
+				.stack 4096
+temp.asm(4) : error A2008:syntax error : .
+				ExitProcess proto,dwExitCode:dword
+temp.asm(5) : error A2008:syntax error : ,
+ 00000000			.data
+ 00000000 00			myByte BYTE ?
+ 00000001 0000			myWord WORD ?
+
+ 00000000			.code
+ 00000000			main proc
+ 00000000  66| 8B C3		     mov ax,bx
+ 00000003  8A D8		     mov bl,al
+				     mov al[si]
+temp.asm(14) : error A2008:syntax error : in instruction
+ 00000005  88 05 00000000 R	     mov myByte,al
+ 0000000B  66| 89 05		     mov myWord,ax
+	   00000001 R
+
+					invoke ExitProcess,0
+temp.asm(18) : error A2008:syntax error : invoke
+ 00000012			main endp
+				end main
+Microsoft (R) Macro Assembler (x64) Version 14.21.27702.2   04/15/20 18:07:04
+temp.asm						     Symbols 2 - 1
+
+
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+main . . . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 00000012 Public
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+myByte . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+myWord . . . . . . . . . . . . .	Word	 00000001 _DATA	
+
+	   0 Warnings
+	   8 Errors

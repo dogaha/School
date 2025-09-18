@@ -1,0 +1,73 @@
+﻿@model CustomerModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+</head>
+<body>
+    <form asp-action="Index" method="post">
+        <h1>
+            Basic Information</h1>
+        <div>
+            <label asp-for="FullName">Full Name: </label>
+            <input asp-for ="FullName" />
+        </div>
+        <br />
+        <div>
+            <label asp-for="CompanyName">Company Name: </label>
+            <input asp-for="CompanyName" />
+        </div>
+        <br />
+        <div>
+            <label>Time Zone: </label>
+            <select asp-for="TimeZone">
+                <option value="" >Please choose one</option>
+                <option value="Mountain Time">Mountain Time</option>
+                <option value="Central Time">Central Time</option>
+                <option value="Eastern Time">Eastern Time</option>
+            </select>
+        </div>
+        <h1>Membership</h1>
+        <div>
+            <label>Choose your membership: </label>
+            <input type="radio" asp-for="Membership" value="Free"/>
+            <label asp-for="Membership">Free</label>
+            <input type="radio" asp-for="Membership" value="Basic" />
+            <label asp-for="Membership">Basic</label>
+            <input type="radio" asp-for="Membership" value="Premium" />
+            <label asp-for="Membership">Premium</label>
+        </div>
+        <h1>Account Details</h1>
+        <div>
+            <label asp-for="Email">Email: </label>
+            <input asp-for="Email" />
+        </div>
+        <br />
+        <div>
+            <label asp-for="Password">Password: </label>
+            <input asp-for="Password" type="password" />
+        </div>
+        <br />
+        <div>
+            <label asp-for="RePassword">Re-enter Password: </label>
+            <input asp-for="RePassword" type="password" />
+        </div>
+        <br />
+        <br />
+        <div>
+            <button type="submit";">Submit</button>
+        </div>
+        <br />
+        <div>
+            <label style="color:red">@ViewBag.ErrorMessage</label>
+            <label style="color:green">@ViewBag.SuccessMessage</label>
+        </div>
+    </form>
+
+</body>
+</html>
+

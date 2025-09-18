@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|f:\\visualstudio\\projects\\csci_4320\\quizzes\\futurevalue\\futurevalue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|solutionrelative:futurevalue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|f:\\visualstudio\\projects\\csci_4320\\quizzes\\futurevalue\\futurevalue\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|solutionrelative:futurevalue\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|f:\\visualstudio\\projects\\csci_4320\\quizzes\\futurevalue\\futurevalue\\models\\futurevaluemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|solutionrelative:futurevalue\\models\\futurevaluemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|f:\\visualstudio\\projects\\csci_4320\\quizzes\\futurevalue\\futurevalue\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|solutionrelative:futurevalue\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|f:\\visualstudio\\projects\\csci_4320\\quizzes\\futurevalue\\futurevalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E45EBDC-187E-4777-BD5E-8799B970BE64}|FutureValue\\FutureValue.csproj|solutionrelative:futurevalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FutureValue\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FutureValue\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T22:44:05.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FutureValueModel.cs",
+              "DocumentMoniker": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Models\\FutureValueModel.cs",
+              "RelativeDocumentMoniker": "FutureValue\\Models\\FutureValueModel.cs",
+              "ToolTip": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Models\\FutureValueModel.cs",
+              "RelativeToolTip": "FutureValue\\Models\\FutureValueModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T22:34:13.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FutureValue\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FutureValue\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T22:01:47.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FutureValue\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FutureValue\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T21:48:12.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Program.cs",
+              "RelativeDocumentMoniker": "FutureValue\\Program.cs",
+              "ToolTip": "F:\\VisualStudio\\Projects\\CSCI_4320\\Quizzes\\FutureValue\\FutureValue\\Program.cs",
+              "RelativeToolTip": "FutureValue\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T23:19:21.288Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

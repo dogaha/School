@@ -1,0 +1,40 @@
+﻿@model MyModel
+
+@{
+}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Array Sorter</title>
+	</head>
+	<body>
+		<h1>Array Sorter</h1>
+		<i>Choose between Three inputs types and enter an array such that each element is seperated by a comma ","</i>
+		<br/>
+	<br />
+		<form asp-action="Index" method="post">
+			<div>
+				<label>Input Type</label>
+				<select asp-for="inputType">
+					<option value="Integer">Integer</option>
+					<option value="String">String</option>
+					<option value="Date">Date</option>
+				</select>
+			</div>
+			<div>
+				<label>Enter Array</label>
+				<input asp-for="input"/>
+			</div>
+			<br />
+			<div>
+				<button type="submit">Sort</button>
+				<a asp-action="Index">Clear</a>
+			</div>
+			<br/>
+			<div>
+				<label>Sorted Array: [@ViewBag.sortedArr]</label>
+			</div>
+		</form>
+	</body>
+</html>

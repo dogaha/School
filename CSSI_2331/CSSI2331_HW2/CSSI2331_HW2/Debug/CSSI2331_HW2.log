@@ -1,0 +1,3 @@
+﻿  Assembling Question3.asm...
+F:\VisualStudio\Projects\CSSI_2331\asmbook-main\Irvine\SmallWin.inc(11): warning A4011: multiple .MODEL directives found : .MODEL ignored
+  CSSI2331_HW2.vcxproj -> F:\VisualStudio\Projects\CSSI_2331\CSSI2331_HW2\Debug\CSSI2331_HW2.exe
