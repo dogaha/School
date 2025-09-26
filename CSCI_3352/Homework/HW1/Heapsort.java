@@ -9,17 +9,17 @@ public class Heapsort {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-        System.out.printf("\texchange A[%d] witn A[%d]",i,j);
-        System.out.println(Arrays.toString(arr));
+        //System.out.printf("\texchange A[%d] witn A[%d]",i,j);
+        //System.out.println(Arrays.toString(arr));
         return arr;
     }
 
     public static int[] BUILD_MAX_HEAP(int[] arr, int n){
         for (int i = n/2;i>=0;i--){
-            System.out.println(String.format("MAX_HEAPIFY(arr,%d,%d)",i,n));
+            //System.out.println(String.format("MAX_HEAPIFY(arr,%d,%d)",i,n));
             arr = MAX_HEAPIFY(arr,i,n);
-            System.out.print("\t");
-            System.out.println(Arrays.toString(arr));
+            //System.out.print("\t");
+            //System.out.println(Arrays.toString(arr));
         }
         return arr;
     }
@@ -39,14 +39,14 @@ public class Heapsort {
     }
 
     public static int[] HEAPSORT(int[] arr){
-        System.out.println("====================================BUILD MAX HEAP====================================");
+        //System.out.println("====================================BUILD MAX HEAP====================================");
         int[] heap = BUILD_MAX_HEAP(arr,arr.length-1);
-        System.out.println("====================================BEGIN HEAPSORT====================================");
+       // System.out.println("====================================BEGIN HEAPSORT====================================");
         for (int i = heap.length-1;i>=1;i--){
-            System.out.printf("HEAPSORT STEP %d\n",heap.length-i);
+            //System.out.printf("HEAPSORT STEP %d\n",heap.length-i);
             heap = MAX_HEAPIFY(EXCHANGE(heap,0,i), 0, i-1);
         }
-        System.out.println("======================================================================================");
+        //System.out.println("======================================================================================");
         return heap;
     }
 
@@ -62,7 +62,7 @@ public class Heapsort {
 
 
     public static void main(String[] args){
-        int[] testArr = {1,1,3,2,16,9,10,14,8,7};
+        //int[] testArr = {1,1,3,2,16,9,10,14,8,7};
         int[] randomArr = CREATE_RANDOM_ARR(100, 100);
         
         long startTime = System.currentTimeMillis();
