@@ -61,7 +61,12 @@ public class Quicksort {
     public static void main (String[] args){
         //int[] testArr = {8,1,6,4,0,3,9,5};
         int[] randomArr = CREATE_RANDOM_ARR(100, 100);
+
+        long startTime = System.nanoTime();
         int[] sortedArr = QUICKSORT(randomArr,0,randomArr.length-1,0);
+        long endTime = System.nanoTime();
+
         System.out.println("QUICKSORTED = "+Arrays.toString(sortedArr));
+        System.out.printf("%d ns\n",endTime - startTime); // Elapsed time in milliseconds
     }
 }

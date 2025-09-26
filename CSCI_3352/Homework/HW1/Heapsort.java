@@ -65,10 +65,11 @@ public class Heapsort {
         //int[] testArr = {1,1,3,2,16,9,10,14,8,7};
         int[] randomArr = CREATE_RANDOM_ARR(100, 100);
         
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
         int[] sortedArr = HEAPSORT(randomArr);
+        long endTime = System.nanoTime();
+        
         System.out.println(Arrays.toString(sortedArr));
-        long endTime = System.currentTimeMillis();
-        System.out.printf("%dms\n",endTime - startTime); // Elapsed time in milliseconds
+        System.out.printf("%d ns\n",endTime - startTime); // Elapsed time in milliseconds
     }
 }
