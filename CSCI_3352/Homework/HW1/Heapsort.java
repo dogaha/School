@@ -1,9 +1,5 @@
 package CSCI_3352.Homework.HW1;
 
-import java.util.Arrays;
-import java.util.Random;
-
-
 public class Heapsort {
     public static int[] EXCHANGE(int[] arr, int i, int j ){
         int temp = arr[i];
@@ -48,28 +44,5 @@ public class Heapsort {
         }
         //System.out.println("======================================================================================");
         return heap;
-    }
-
-    public static int[] CREATE_RANDOM_ARR(int arrSize,int max_value){
-        int[] arr = new int[arrSize];
-        Random r = new Random();
-
-        for (int i = 0; i<arrSize;i++){
-            arr[i] = r.nextInt(max_value+1);
-        }
-        return arr;
-    }
-
-
-    public static void main(String[] args){
-        //int[] testArr = {1,1,3,2,16,9,10,14,8,7};
-        int[] randomArr = CREATE_RANDOM_ARR(100, 100);
-        
-        long startTime = System.nanoTime();
-        int[] sortedArr = HEAPSORT(randomArr);
-        long endTime = System.nanoTime();
-        
-        System.out.println(Arrays.toString(sortedArr));
-        System.out.printf("%d ns\n",endTime - startTime); // Elapsed time in milliseconds
     }
 }

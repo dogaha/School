@@ -1,8 +1,5 @@
 package CSCI_3352.Homework.HW1;
 
-import java.util.Arrays;
-import java.util.Random;
-
 public class Quicksort {
      
     public static int[] EXCHANGE(int[] arr, int i, int j ){
@@ -46,27 +43,5 @@ public class Quicksort {
         //sliced = Arrays.copyOfRange(arr, p, r+1);
         //System.out.println("\t".repeat(count)+"QUICKSORT = "+Arrays.toString(sliced));
         return arr;
-    }
-
-    public static int[] CREATE_RANDOM_ARR(int arrSize,int max_value){
-        int[] arr = new int[arrSize];
-        Random r = new Random();
-
-        for (int i = 0; i<arrSize;i++){
-            arr[i] = r.nextInt(max_value+1);
-        }
-        return arr;
-    }
-
-    public static void main (String[] args){
-        //int[] testArr = {8,1,6,4,0,3,9,5};
-        int[] randomArr = CREATE_RANDOM_ARR(100, 100);
-
-        long startTime = System.nanoTime();
-        int[] sortedArr = QUICKSORT(randomArr,0,randomArr.length-1,0);
-        long endTime = System.nanoTime();
-
-        System.out.println("QUICKSORTED = "+Arrays.toString(sortedArr));
-        System.out.printf("%d ns\n",endTime - startTime); // Elapsed time in milliseconds
     }
 }
